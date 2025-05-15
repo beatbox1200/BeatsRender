@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: jellyfin
+    env: docker
+    plan: free
+    autoDeploy: true
